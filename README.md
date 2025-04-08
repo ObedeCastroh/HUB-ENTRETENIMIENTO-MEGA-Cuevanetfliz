@@ -22,6 +22,7 @@ imagenes .jpg(13 en total)
 -Mockup:
 <img width="3176" alt="Mockup_Cuevanetfliz" src="https://github.com/user-attachments/assets/3a6d423b-b80b-41b9-8131-e516e32bf991" />
 
+
 -Capturas
 Nos logueamos con usuario: admin, contraseña: 1234 ![image](https://github.com/user-attachments/assets/4ffd305f-6e41-4a33-b568-20625fd2956a)
 
