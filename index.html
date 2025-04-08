@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>🎥Cuevanetfliz🎥</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Ingresar</button>
+                <p id="loginMessage" class="message"></p>
+            </form>
+        </div>
+    </div>
+
+
+    <header>
+        <h1 class="logo">Cuevanetfliz</h1>
+        <div class="user-section">
+            <button id="loginBtn" class="login-btn">Iniciar Sesión</button>
+            <div id="userInfo" class="user-info" style="display: none;">
+                <span id="welcomeUser"></span>
+                <button id="logoutBtn" class="logout-btn">Cerrar Sesión</button>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="main-nav">
+        <button class="nav-btn active" id="btnPeliculasSeries">Series/Películas</button>
+        <button class="nav-btn" id="btnGeneros">Géneros</button>
+        <button class="nav-btn" id="btnFavoritos">Favoritos</button>
+    </nav>
+    
+    <main id="content">
+        <div class="welcome-message">
+            <h2>Bienvenido a Cuevanetfliz</h2>
+            <p>Inicia sesión para acceder a todo el contenido</p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2025 Cuevanetfliz - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
